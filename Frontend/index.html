@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOFO-Faisal®</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEVB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8U00qcPxh4P1q7G5tGmrU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="Style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">             
+            <a href="#"><img src="images/logo for tourism.svg" alt="LOGO" width="130"></a>        
+        </div>
+        <div class="menu">
+            <div class="menu-links">
+                <a href="#">Home</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#Gallery">Gallery</a>
+                <a href="#Testinomials">Testinomials</a>
+                <a href="#Packages">Packages/Offers</a>
+                <a href="#contact-us">Contact</a>
+                <a href="#FAQ">FAQ</a>
+            </div>
+            <button class="log-in">Log In</button>
+        
+        </div>
+        <div class="menu-btn">       
+            <i class="fa-solid fa-bars"></i>       
+        </div>       
+    </nav>
+<section id="Home">   
+    <div class="wrapper">
+        <div class="slide" id="slide">
+            <div class="item" style="background-image: url('./images/landscape-4878687_1280.jpg');">
+                <div class="content">
+                    <h2 class="name">Greece</h2>
+                    <p class="des">Greece is a historic country known as the birthplace of democracy, philosophy, and the Olympic Games.
+                        It boasts stunning islands, ancient ruins, and rich cultural traditions.</p>
+                    <button class="button">Explore</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('./images/thailand-180828_1280.jpg');">
+                <div class="content">
+                    <h2 class="name">Thailand</h2>
+                    <p class="des">Thailand is a Southeast Asian country known for its vibrant culture, stunning temples, tropical beaches, and delicious cuisine. 
+                        It’s famous for landmarks like Bangkok’s Grand Palace and Phuket’s scenic islands.</p>
+                    <button class="button">Book Now</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('./images/road-1072821_1280.jpg');">
+                <div class="content">
+                    <h2 class="name">Brazil</h2>
+                    <p class="des">Brazil is the largest country in South America, famous for its Amazon rainforest, vibrant festivals like Rio Carnival, and iconic landmarks such as Christ the Redeemer. 
+                        It’s also known for its rich culture, football passion, and beautiful beaches.</p>
+                    <button class="button">See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('./images/istanbul-7155395_1280.jpg');">
+                <div class="content">
+                    <h2 class="name">Turkey</h2>
+                    <p class="des">Turkey is a transcontinental country bridging Europe and Asia, known for its rich history, stunning landscapes, and cultural heritage. 
+                        It features iconic landmarks like Hagia Sophia, Cappadocia, and the ancient city of Ephesus.</p>
+                    <button class="button">Discover more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url('./images/mountains-5237939_1280.jpg');">
+                <div class="content">
+                    <h2 class="name">Switzerland</h2>
+                    <p class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum deleniti iusto vero rerum sunt quod corrupti esse nihil nemo aliquam?</p>
+                    <button class="button">Go Premium</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button id="prev"><i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ChevronLeft"><path d="M15 4l-8 8 8 8"/></svg>
+            </i></button>
+            <button id="next"><i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ai ai-ChevronRight"><path d="M8 4l8 8-8 8"/></svg>
+            </i></button>
+        </div>
+    </div>
+</section>
+
+<section id="destinations">
+    <div class="destinations">
+        <h2>Popular Destinations</h2>
+    
+
+    <main>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="swiper-slide-img">
+
+                <img src="https://images.unsplash.com/photo-1543335785-8aadf6d8183c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt=""/><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                  <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                  <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                  <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+
+              </div>
+              <div class="swiper-slide-content">
+                <div>
+                  <h2>louvre</h2>
+                  <p>
+                    National art museum in Paris, France. It is located on the
+                    Right Bank of the Seine in the city's 1st arrondissement
+                    (district or ward) and home to some of the most canonical
+                    works of Western art, including the Mona Lisa and the Venus de
+                    Milo.</p>
+                  <a class="show-more" href="https://en.wikipedia.org/wiki/Louvre" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path></svg></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-slide-img">
+                <img src="https://images.unsplash.com/photo-1618822461310-da1be362e30c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt=""/>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+              </div>
+
+              <div class="swiper-slide-content">
+                <div>
+                  <h2>seychelles</h2>
+                  <p>
+                    Officially the Republic of Seychelles is an island country and
+                    archipelagic state consisting of 155 islands in the Indian
+                    Ocean.</p>
+                <a class="show-more" href="https://en.wikipedia.org/wiki/Seychelles" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path></svg></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-slide-img">
+                <img src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1965&q=80" alt=""/>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+              </div>
+
+              <div class="swiper-slide-content">
+                <div>
+                  <h2>london</h2>
+                  <p>
+                    The capital and largest city of England and the United
+                    Kingdom, with a population of around 8.8 million. It stands on
+                    the River Thames in south-east England at the head of a
+                    50-mile (80 km) estuary down to the North Sea and has been a
+                    major settlement for nearly two millennia.</p>
+                <a class="show-more" href="https://en.wikipedia.org/wiki/London" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path></svg></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-slide-img">
+                <img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1975&q=80" alt=""/>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+              </div>
+
+              <div class="swiper-slide-content">
+                <div>
+                  <h2>maldives</h2>
+                  <p>
+                    Officially the Republic of Maldives is an archipelagic state
+                    and country in South Asia, situated in the Indian Ocean.</p>
+                <a class="show-more" href="https://en.wikipedia.org/wiki/Maldives" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path></svg></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="swiper-slide-img">
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1886&q=80" alt=""/>
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                </svg>
+              </div>
+
+              <div class="swiper-slide-content">
+                <div>
+                  <h2>Italy</h2>
+                  <p>
+                    Located in the middle of the Mediterranean Sea, it consists of
+                    a peninsula delimited by the Alps and surrounded by several
+                    islands. Italy shares land borders with France, Switzerland,
+                    Austria, Slovenia and the enclaved microstates of Vatican City
+                    and San Marino.</p>
+                <a class="show-more" href="https://en.wikipedia.org/wiki/Italy" target="_blank"><svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path></svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+</section>
+
+<section id="Gallery">
+    <div class="gallery-font">
+    <h2>Gallery</h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="images/img1.jpg" width="100%" height="450px" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img2.jpg" width="100%" height="450px" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img3.jpg" width="100%" height="226.5px" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="images/img4.jpg" width="100%" height="250px" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img5.jpg" width="100%" height="450px" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img6.jpg" width="100%" height="426.5px" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="images/img7.jpg" width="100%" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img8.jpg" width="100%" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img9.jpg" width="100%" alt="">
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="img-hover-zoom">
+                <img src="images/img10.jpg" width="100%" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img11.jpg" width="100%" alt="">
+            </div>
+
+            <div class="img-hover-zoom">
+                <img src="images/img12.jpg" width="100%" height="442.5px" alt="">
+            </div>
+        </div>
+    </div>   
+</section>
+
+<section id="Testinomials">
+    <div class="Testinomials">
+        <h2>Our Testimonials</h2>
+        <div class="container">
+            <div class="card-1">
+                <div class="circle">
+                    <img src="images/profile1.jpg" alt="">
+                </div>
+                <div class="content-2">
+                    <p>"Unforgettable trip! SOFO planned our Greek island adventure perfectly—Santorini sunsets and Athens' charm were seamless."</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="circle">
+                    <img src="images/profile2.jpg" alt="">
+                </div>
+                <div class="content-2">
+                    <p>"SOFO made our Turkish tour amazing! Istanbul’s Grand Bazaar and Cappadocia’s balloons were magical. Great service and planning!"</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="circle">
+                    <img src="images/profile3.png" alt="">
+                </div>
+                <div class="content-2">
+                    <p>"Stunning views and smooth planning! SOFO covered the Alps and Swiss villages perfectly. Great guides and hassle-free bookings!"</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="card-1">
+                <div class="circle">
+                    <img src="images/profile4.jpg" alt="">
+                </div>
+                <div class="content-2">
+                    <p>"Our Italian trip was a dream! From Rome’s history to Venice’s romance, SOFO handled every detail perfectly. Can't wait to book again!"</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="body-aurora">
+<div class="content-3">
+    <h1 class="title">Dream. Explore.
+        <div class="aurora">
+            <div class="aurora__item"> </div>
+            <div class="aurora__item"> </div>
+            <div class="aurora__item"> </div>
+            <div class="aurora__item"> </div>
+        </div>
+    </h1>
+</div>
+</section>
+
+<!-- Packages section -->
+<section id="Packages">
+    <section class="main-flow">
+        <div class="main__cards cards">
+          <div class="cards__inner">
+            <div class="cards__card card">
+              <h2 class="card__heading">Africa</h2>
+              <p class="card__price">$359.99</p>
+              <ul role="list" class="card__bullets flow">
+                <li>Access to standard travel plans and itineraries</li>
+                <li>Hotel bookings included (3-star accommodations)</li>
+                <li>Email support</li>
+                <li>Airport transfers</li>
+              </ul>
+              <a href="#Book Now" class="card__cta cta">Book Now</a>
+            </div>
+    
+            <div class="cards__card card">
+              <h2 class="card__heading">Asia</h2>
+              <p class="card__price">$680.00</p>
+              <ul role="list" class="card__bullets flow">
+                <li>Access to advanced travel plans and itineraries</li>
+                <li>Priority hotel bookings (4-star accommodations)</li>
+                <li>Priority Email support</li>
+                <li>Exclusive access to live Q&A sessions</li>
+                <li>Popular attractions and adventure activities included</li>
+                <li>Airport transfers</li>
+              </ul>
+              <a href="#Book Premium" class="card__cta cta">Book Premium</a>
+            </div>
+    
+            <div class="cards__card card">
+              <h2 class="card__heading">Europe</h2>
+              <p class="card__price">$999.99</p>
+              <ul role="list" class="card__bullets flow">
+                <li>Access to premium travel plans and itineraries</li>
+                <li>5-star hotel bookings included</li>
+                <li>24/7 Priority support</li>
+                <li>1-on-1 virtual travel assistance</li>
+                <li>Exclusive content and early access to new destinations</li>
+                <li>Guided tours to historical landmarks and cultural festivals</li>
+                <li>Airport transfers and transportation within destinations</li>
+              </ul>
+              <a href="#Go Ultimate" class="card__cta cta">Go Ultimate</a>
+            </div>
+          </div>
+    
+          <div class="overlay cards__inner"></div>
+        </div>
+      </section>
+</section>
+
+<!-- Contact Us section -->
+<section id="contact-us">
+<div class="container-1">
+  <div class="form">
+    <div class="contact-info">
+      <h3 class="title-4">Let's get in touch</h3>
+      <p class="text">
+        We'd love to hear from you! Whether you have questions about our packages,
+        need help planning your dream vacation, or want to know more about Sofo, feel free to reach out.
+      </p>
+
+      <div class="info">
+        <div class="information">
+          <img src="images/location.png" class="icon" alt=""></img>
+          <p>54 Al Enjaaz St Ajman Nuimiya-2</p>
+        </div>
+        <div class="information">
+          <img src="images/email.png" class="icon" alt=""></img>
+          <p>support@sofo.com</p>
+        </div>
+        <div class="information">
+          <img src="images/phone.png" class="icon" alt=""></img>
+          <p>+971 56 8387374</p>
+        </div>
+      </div>
+
+      <div class="social-media">
+        <p>Connect with us :</p>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/DigitalEdgeUAE911?mibextid=ZbWKwL">
+            <i class="fab fa-facebook-f icons"></i>
+          </a>
+          <a href="https://x.com/X_Faisal58?t=zqU6BeFBujDFdiAbvdD-8w&s=09">
+            <i class="fab fa-twitter icons"></i>
+          </a>
+          <a href="https://www.instagram.com/ig_mxf/">
+            <i class="fab fa-instagram icons"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mohammed-faisal-169824280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fab fa-linkedin-in icons"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <span class="circle-one"></span>
+      <span class="circle-two"></span>
+
+      <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+        <input type="hidden" name="access_key" value="9db54cfd-e1fd-4194-8a05-e2c4d1cafd38">
+        <h3 class="title-4">Contact us</h3>
+        <div class="input-container">
+          <input type="text" name="name" class="input" />
+          <label for="">Username</label>
+          <span>Username</span>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" class="input" />
+          <label for="">Email</label>
+          <span>Email</span>
+        </div>
+        <div class="input-container">
+          <input type="tel" name="phone" class="input" />
+          <label for="">Phone</label>
+          <span>Phone</span>
+        </div>
+        <div class="input-container textarea">
+          <textarea name="message" class="input"></textarea>
+          <label for="">Message</label>
+          <span>Message</span>
+        </div>
+        <input type="submit" value="Send" class="btn" />
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- FAQs section -->
+<section id="FAQ">
+    <div class="container-8">
+        <div class="faq-headline">
+            <img src="images/icon-tourist.png" alt="" width="80" height="80">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        <div class="accordion-container">
+            <div class="accordion-item">
+                <button id="accordion-btn" class="accordion-btn">
+                    What is included in the travel packages?
+
+                    <div class="icon-tourist">
+                        <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
+                    </div>
+                </button>
+
+                <div class="accordion-description">
+                    <p>Our travel packages include accommodation, guided tours, transportation, and access to top attractions. 
+                        Premium plans offer luxury stays and exclusive experiences.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-btn" class="accordion-btn">
+                    Can I customize my travel itinerary?
+
+                    <div class="icon-tourist">
+                        <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
+                    </div>
+                </button>
+
+                <div class="accordion-description">
+                    <p>Yes! We provide personalized itineraries based on your preferences and interests. 
+                        Contact us for customization options.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-btn" class="accordion-btn">
+                    Do you offer group discounts?
+
+                    <div class="icon-tourist">
+                        <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
+                    </div>
+                </button>
+
+                <div class="accordion-description">
+                    <p>Absolutely! We provide special rates for group bookings. 
+                        Reach out to learn more about our group packages.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-btn" class="accordion-btn">
+                    Are flights included in the packages?
+
+                    <div class="icon-tourist">
+                        <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
+                    </div>
+                </button>
+
+                <div class="accordion-description">
+                    <p>Flights are not included by default but can be added upon request. 
+                        Contact our support team for flight arrangements.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button id="accordion-btn" class="accordion-btn">
+                    How do I make a booking?
+
+                    <div class="icon-tourist">
+                        <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
+                    </div>
+                </button>
+
+                <div class="accordion-description">
+                    <p>You can book directly through our website or contact us via email or phone. 
+                        Our team is here to assist you every step of the way.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="background">
+      <svg class="footer-animations" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
+        <defs>
+          <path id="wave" fill="rgba(128, 0, 128, 1)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0 s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"/>
+        </defs>
+          <use xlink:href="#wave" opacity=".4"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
+          <use xlink:href="#wave" opacity=".6"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline" values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
+          <use xlink:href="#wave" opacty=".9"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s" calcMode="spline" values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
+      </svg>
+    </div>
+    <section class="footer">
+      <ul class="socials-5">
+        <li><a href="https://x.com/X_Faisal58?t=zqU6BeFBujDFdiAbvdD-8w&s=09" class="fa-brands fa-x-twitter"></a></li>
+        <li><a href="https://www.facebook.com/DigitalEdgeUAE911?mibextid=ZbWKwL" class="fa-brands fa-facebook"></a></li>
+        <li><a href="https://www.linkedin.com/in/mohammed-faisal-169824280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa-brands fa-linkedin"></a></li>
+        <li><a href="https://www.instagram.com/ig_mxf/" class="fa-brands fa-instagram"></a></li>
+      </ul>
+      <ul class="links-2" style="cursor: pointer;">
+        <li><a>Home</a></li>
+        <li><a>Destinations</a></li>
+        <li><a>Gallery</a></li>
+        <li><a>Testinomials</a></li>
+        <li><a>Packages/Offers</a></li>
+        <li><a>Contact</a></li>
+        <li><a>FAQ</a></li>
+      </ul>
+      <p class="legal">© 2025 SOFO. All rights reserved by <strong>Faisal</strong>.</p>
+    </section>
+  </footer>
+    
+    <script defer src="index.js"></script>
+</body>
+</html>
+
