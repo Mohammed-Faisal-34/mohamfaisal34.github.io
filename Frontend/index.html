@@ -9,343 +9,282 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEVB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8U00qcPxh4P1q7G5tGmrU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://kit.fontawesome.com/ad31ccea7e.js"></script>
 </head>
 <body>
     <nav class="navbar">
+        <!-- Left section contains the website's logo -->
         <div class="left">
             <img src="images/logo sofo.png" alt="">
         </div>
+        <!-- Right section contains the navigation menu -->
         <div class="right">
+            <!-- Checkbox and label used for the hamburger menu in smaller screens -->
             <input type="checkbox" id="check">
             <label for="check" class="checkBtn">
                 <i class="fa fa-bars"></i>
             </label>
+            <!-- Navigation links for different sections of the website -->
             <ul class="list">
-        <li><a href="#">Home</a></li>
-        <li><a href="#Destinations">Destinations</a></li>
-        <li><a href="#Testinomials">Testinomials</a></li>
-        <li><a href="#Packages">Packages</a></li>
-        <li><a href="#contact-us">Contact</a></li>
-        <li><a href="#FAQ">FAQ</a></li>
-        <li><a href="signup.html">Sign Up</a></li>
-        <li><a href="login.html">Login</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#Gallery">Gallery</a></li>
+                <li><a href="#Testinomials">Testimonials</a></li>
+                <li><a href="#Packages">Packages</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li><a href="#FAQ">FAQ</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </div>
     </nav>
-
-<section id="Home">
-    <div class="carousel">
-
-        <div class="list-1">
-
-            <div class="item" style="background-image: url(images/road-1072821_1280.jpg);">
-                <div class="content">
-                    <div class="title-0">Brazil</div>
-                    <div class="name"></div>
-                    <div class="des">Brazil is the largest country in South America, famous for its Amazon rainforest, vibrant festivals like Rio Carnival, and iconic landmarks such as Christ the Redeemer. 
-                        It’s also known for its rich culture, football passion, and beautiful beaches.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
+    
+    <section id="Home">
+        <div class="carousel">
+            <div class="list-1">
+                <!-- Each item represents a destination with background images and details -->
+                <div class="item" style="background-image: url(images/road-1072821_1280.jpg);">
+                    <div class="content">
+                        <!-- Title and description for the destination -->
+                        <div class="title-0">Brazil</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Brazil is the largest country in South America, famous for its Amazon rainforest, vibrant festivals like Rio Carnival, and iconic landmarks such as Christ the Redeemer. 
+                            It’s also known for its rich culture, football passion, and beautiful beaches.
+                        </div>
+                        <!-- Action buttons for the destination -->
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/Bora\ Bora.jpg);">
+                    <div class="content">
+                        <div class="title-0">Bora Bora</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Bora Bora, a French Polynesian gem, is famed for its turquoise lagoon, vibrant coral reefs, and luxurious overwater bungalows, offering stunning sunsets and a paradise-like escape.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/thailand-180828_1280.jpg);">
+                    <div class="content">
+                        <div class="title-0">Thailand</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Thailand is a Southeast Asian country known for its vibrant culture, stunning temples, tropical beaches, and delicious cuisine. 
+                            It’s famous for landmarks like Bangkok’s Grand Palace and Phuket’s scenic islands.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/landscape-4878687_1280.jpg);">
+                    <div class="content">
+                        <div class="title-0">Greece</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Greece is a historic country known as the birthplace of democracy, philosophy, and the Olympic Games.
+                            It boasts stunning islands, ancient ruins, and rich cultural traditions.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/istanbul-7155395_1280.jpg);">
+                    <div class="content">
+                        <div class="title-0">Turkey</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Turkey is a transcontinental country bridging Europe and Asia, known for its rich history, stunning landscapes, and cultural heritage. 
+                            It features iconic landmarks like Hagia Sophia, Cappadocia, and the ancient city of Ephesus.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/mountains-5237939_1280.jpg);">
+                    <div class="content">
+                        <div class="title-0">Switzerland</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Switzerland, a land of breathtaking Alpine scenery, is renowned for its snow-capped peaks, pristine lakes, charming villages, and world-class chocolate. A haven for nature lovers and adventure seekers alike!
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/India.jpg);">
+                    <div class="content">
+                        <div class="title-0">India</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            India, a land of vibrant culture, rich history, and diverse landscapes, offers everything from majestic palaces and ancient temples to bustling cities and serene backwaters.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/italy.jpg);">
+                    <div class="content">
+                        <div class="title-0">Italy</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Italy, a treasure trove of art, history, and cuisine, is famed for its iconic landmarks, stunning landscapes, and timeless charm.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/china-7094961_1280.jpg);">
+                    <div class="content">
+                        <div class="title-0">China</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            China, a blend of ancient traditions and modern marvels, is renowned for its Great Wall, rich history, vibrant culture, and breathtaking landscapes.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/Bali.jpg);">
+                    <div class="content">
+                        <div class="title-0">Bali</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Bali, the Island of the Gods, is celebrated for its stunning beaches, lush rice terraces, vibrant culture, and serene temples, offering a perfect tropical escape.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="item" style="background-image: url(images/Greenland.jpg);">
+                    <div class="content">
+                        <div class="title-0">Greenland</div>
+                        <div class="name"></div>
+                        <div class="des">
+                            Greenland, the world’s largest island, is known for its vast ice sheets, stunning fjords, and unique Arctic wildlife, offering a serene and otherworldly experience.
+                        </div>
+                        <div class="btn">
+                            <button>See More</button>
+                            <button>Book Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="item" style="background-image: url(images/Bora\ Bora.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Bora Bora</div>
-                    <div class="name"></div>
-                    <div class="des">Bora Bora, a French Polynesian gem, is famed for its turquoise lagoon, vibrant coral reefs, and luxurious overwater bungalows, offering stunning sunsets and a paradise-like escape.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
+    
+            <!-- Buttons for navigating through the carousel -->
+            <div class="arrows">
+                <button class="prev"><</button>
+                <button class="next">></button>
             </div>
-
-            <div class="item" style="background-image: url(images/thailand-180828_1280.jpg);">
-
-                <div class="content">
-                    <div class="title-0">Thailand</div>
-                    <div class="name"></div>
-                    <div class="des">Thailand is a Southeast Asian country known for its vibrant culture, stunning temples, tropical beaches, and delicious cuisine. 
-                        It’s famous for landmarks like Bangkok’s Grand Palace and Phuket’s scenic islands.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/landscape-4878687_1280.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Greece</div>
-                    <div class="name"></div>
-                    <div class="des">Greece is a historic country known as the birthplace of democracy, philosophy, and the Olympic Games.
-                        It boasts stunning islands, ancient ruins, and rich cultural traditions.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/istanbul-7155395_1280.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Turkey</div>
-                    <div class="name"></div>
-                    <div class="des">Turkey is a transcontinental country bridging Europe and Asia, known for its rich history, stunning landscapes, and cultural heritage. 
-                        It features iconic landmarks like Hagia Sophia, Cappadocia, and the ancient city of Ephesus.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/mountains-5237939_1280.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Switzerland</div>
-                    <div class="name"></div>
-                    <div class="des">Switzerland, a land of breathtaking Alpine scenery, is renowned for its snow-capped peaks, pristine lakes, charming villages, and world-class chocolate. A haven for nature lovers and adventure seekers alike!</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/India.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">India</div>
-                    <div class="name"></div>
-                    <div class="des">India, a land of vibrant culture, rich history, and diverse landscapes, offers everything from majestic palaces and ancient temples to bustling cities and serene backwaters.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/italy.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Italy</div>
-                    <div class="name"></div>
-                    <div class="des">Italy, a treasure trove of art, history, and cuisine, is famed for its iconic landmarks, stunning landscapes, and timeless charm.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/china-7094961_1280.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">China</div>
-                    <div class="name"></div>
-                    <div class="des">China, a blend of ancient traditions and modern marvels, is renowned for its Great Wall, rich history, vibrant culture, and breathtaking landscapes.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/Bali.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Bali</div>
-                    <div class="name"></div>
-                    <div class="des">Bali, the Island of the Gods, is celebrated for its stunning beaches, lush rice terraces, vibrant culture, and serene temples, offering a perfect tropical escape.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="item" style="background-image: url(images/Greenland.jpg);">
-                
-                <div class="content">
-                    <div class="title-0">Greenland</div>
-                    <div class="name"></div>
-                    <div class="des">Greenland, the world’s largest island, is known for its vast ice sheets, stunning fjords, and unique Arctic wildlife, offering a serene and otherworldly experience.</div>
-                    <div class="btn">
-                        <button>See More</button>
-                        <button>Book Now</button>
-                    </div>
-                </div>
-
-            </div>
-
+    
+            <!-- Time running indicator for carousel transitions -->
+            <div class="timeRunning"></div>
         </div>
+    </section>
+    
 
-        <!--next prev button-->
-        <div class="arrows">
-            <button class="prev"><</button>
-            <button class="next">></button>
-        </div>
-
-
-        <!-- time running -->
-        <div class="timeRunning"></div>
-
-    </div>
-</section>
-
-<div class="para-1">
-    <h2>Explore the World with Us</h2>
-    <p>Discover breathtaking destinations and unforgettable experiences with our expertly crafted tour packages. 
-        Whether you're seeking serene landscapes, thrilling adventures, or cultural immersion, we bring your dream journey to life.
-        Let us handle the details so you can focus on creating memories that last a lifetime. Start your adventure today!</p>
-        <a href="#" class="btn-10">Explore</a>
-</div>
-
-<section id="Destinations">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="slider-item swiper-slide">
-            <div class="slider-image-wrapper">
-              <img class="slider-image" src="https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2600&q=80" alt="SliderImg">
-            </div>
-            <div class="slider-item-content">
-              <h1>Exploring Italy's Beauty</h1>
-              <p>Discover the breathtaking landscapes, rich history, and delectable cuisine of Italy in this mesmerizing journey.</p>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slider-image-wrapper">
-              <img class="slider-image" src="https://images.unsplash.com/photo-1491900177661-4e1cd2d7cce2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80" alt="SliderImg">
-            </div>
-            <div class="slider-item-content">
-              <h1>Exploring Hidden Bunkers</h1>
-              <p>Uncover the secrets of underground bunkers and their historical significance in this thrilling adventure.</p>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slider-image-wrapper">
-              <img class="slider-image" src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2600&q=80" alt="SliderImg">
-            </div>
-            <div class="slider-item-content">
-              <h1>Scaling Small Mountains</h1>
-              <p>Embark on an adventurous journey to conquer the challenging peaks of small mountains and embrace the thrill of the climb.</p>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slider-image-wrapper">
-              <img class="slider-image" src="https://images.unsplash.com/photo-1564604761388-83eafc96f668?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=801.2.1&auto=format&fit=crop&w=2167&q=80" alt="SliderImg">
-            </div>
-            <div class="slider-item-content">
-              <h1>Walking On a Dream</h1>
-              <p>Experience the dreamlike landscapes and surreal beauty of distant lands in this enchanting expedition.</p>
-            </div>
-          </div>
-        </div>
-        <div class="slider-buttons">
-          <button class="swiper-button-prev">Prev</button>
-          <button class="swiper-button-next">Next</button>
-        </div>
-      
-        <div class="swiper-pagination"></div>
-      </div>
-      <!-- partial -->
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.5/swiper-bundle.min.js'></script><script  src="./script.js"></script>
-</section>
-
-<!--Gallery-->
+<!-- Gallery Section -->
 <section id="Gallery">
-    <div class="gallery-font">
-    <h2>Gallery</h2>
-    </div>
-    <div class="row">
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="images/img1.jpg" width="100%" height="450px" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img2.jpg" width="100%" height="450px" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img3.jpg" width="100%" height="226.5px" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="images/img4.jpg" width="100%" height="250px" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img5.jpg" width="100%" height="450px" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img6.jpg" width="100%" height="426.5px" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="images/img7.jpg" width="100%" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img8.jpg" width="100%" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img9.jpg" width="100%" alt="">
-            </div>
-        </div>
-
-        <div class="column">
-            <div class="img-hover-zoom">
-                <img src="images/img10.jpg" width="100%" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img11.jpg" width="100%" alt="">
-            </div>
-
-            <div class="img-hover-zoom">
-                <img src="images/img12.jpg" width="100%" height="442.5px" alt="">
-            </div>
-        </div>
-    </div>   
+    <!-- Main article for the gallery -->
+    <article>
+        <!-- Container for the gallery content -->
+        <figure>
+            <!-- Caption section -->
+            <figcaption>
+                <!-- Gallery title -->
+                <h1>
+                    Gallery
+                </h1>
+                <!-- Description of the gallery -->
+                <p>
+                    The SOFO Gallery <span>showcases stunning visuals</span> 
+                    <span>below</span> of breathtaking destinations, giving users a glimpse of the adventures they can embark on. 
+                    It enhances the website's appeal by offering a visually immersive experience for potential travelers.
+                </p>
+            </figcaption>
+            <!-- Button to expand or collapse the gallery -->
+            <button class="btn-50" style="margin-left: auto;"> <!-- Add margin-left: auto here -->
+                <label for="init">
+                    <!-- Text for expand/collapse states -->
+                    <span>Expand</span>
+                    <span>Collapse</span>
+                </label>
+                <!-- Checkbox to toggle the gallery view -->
+                <input type="checkbox" name="init" id="init">
+            </button>
+        </figure>
+        <!-- Section containing all the photos -->
+        <section class="photos">
+            <!-- Each photo container -->
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+            <div class="pic"></div>
+        </section>
+    </article>
 </section>
 
+<!-- Testimonials Section -->
 <section id="Testinomials">
+    <!-- Container for all testimonials -->
     <div class="Testinomials">
+        <!-- Section title -->
         <h2>Our Testimonials</h2>
+        <!-- Wrapper for all testimonial cards -->
         <div class="container">
+            <!-- First testimonial card -->
             <div class="card-1">
+                <!-- Profile image container -->
                 <div class="circle">
                     <img src="images/profile1.jpg" alt="">
                 </div>
+                <!-- Testimonial text and link -->
                 <div class="content-2">
                     <p>"Unforgettable trip! SOFO planned our Greek island adventure perfectly—Santorini sunsets and Athens' charm were seamless."</p>
+                    <!-- Link to read the full testimonial -->
                     <a href="#">Read More</a>
                 </div>
             </div>
+            <!-- Second testimonial card -->
             <div class="card-1">
                 <div class="circle">
                     <img src="images/profile2.jpg" alt="">
@@ -355,6 +294,7 @@
                     <a href="#">Read More</a>
                 </div>
             </div>
+            <!-- Third testimonial card -->
             <div class="card-1">
                 <div class="circle">
                     <img src="images/profile3.png" alt="">
@@ -368,233 +308,274 @@
     </div>
 </section>
 
+<!-- Aurora Section -->
 <section class="body-aurora">
+    <!-- Content inside the aurora section -->
     <div class="content-3">
+        <!-- Main heading with aurora effect -->
         <h1 class="title">Dream. Explore.
+            <!-- Aurora effect elements -->
             <div class="aurora">
-                <div class="aurora__item"> </div>
-                <div class="aurora__item"> </div>
-                <div class="aurora__item"> </div>
-                <div class="aurora__item"> </div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
+                <div class="aurora__item"></div>
             </div>
         </h1>
     </div>
-    </section>
-
-    <!-- Packages section -->
-<section id="Packages">
-    <section class="main-flow">
-        <div class="main__cards cards">
-          <div class="cards__inner">
-            <div class="cards__card card">
-              <h2 class="card__heading">Africa</h2>
-              <p class="card__price">$359.99</p>
-              <ul role="list" class="card__bullets flow">
-                <li>Access to standard travel plans and itineraries</li>
-                <li>Hotel bookings included (3-star accommodations)</li>
-                <li>Email support</li>
-                <li>Airport transfers</li>
-              </ul>
-              <a href="#Book Now" class="card__cta cta">Book Now</a>
-            </div>
-    
-            <div class="cards__card card">
-              <h2 class="card__heading">Asia</h2>
-              <p class="card__price">$680.00</p>
-              <ul role="list" class="card__bullets flow">
-                <li>Access to advanced travel plans and itineraries</li>
-                <li>Priority hotel bookings (4-star accommodations)</li>
-                <li>Priority Email support</li>
-                <li>Exclusive access to live Q&A sessions</li>
-                <li>Popular attractions and adventure activities included</li>
-                <li>Airport transfers</li>
-              </ul>
-              <a href="#Book Premium" class="card__cta cta">Book Premium</a>
-            </div>
-    
-            <div class="cards__card card">
-              <h2 class="card__heading">Europe</h2>
-              <p class="card__price">$999.99</p>
-              <ul role="list" class="card__bullets flow">
-                <li>Access to premium travel plans and itineraries</li>
-                <li>5-star hotel bookings included</li>
-                <li>24/7 Priority support</li>
-                <li>1-on-1 virtual travel assistance</li>
-                <li>Exclusive content and early access to new destinations</li>
-                <li>Guided tours to historical landmarks and cultural festivals</li>
-                <li>Airport transfers and transportation within destinations</li>
-              </ul>
-              <a href="#Go Ultimate" class="card__cta cta">Go Ultimate</a>
-            </div>
-          </div>
-    
-          <div class="overlay cards__inner"></div>
-        </div>
-      </section>
 </section>
 
-<!-- Contact Us section -->
-<section id="contact-us">
-    <div class="container-1">
-      <div class="form">
-        <div class="contact-info">
-          <h3 class="title-4">Let's get in touch</h3>
-          <p class="text">
-            We'd love to hear from you! Whether you have questions about our packages,
-            need help planning your dream vacation, or want to know more about Sofo, feel free to reach out.
-          </p>
-    
-          <div class="info">
-            <div class="information">
-              <img src="images/location.png" class="icon" alt=""></img>
-              <p>54 Al Enjaaz St Ajman Nuimiya-2</p>
-            </div>
-            <div class="information">
-              <img src="images/email.png" class="icon" alt=""></img>
-              <p>support@sofo.com</p>
-            </div>
-            <div class="information">
-              <img src="images/phone.png" class="icon" alt=""></img>
-              <p>+971 56 8387374</p>
-            </div>
-          </div>
-    
-          <div class="social-media">
-            <p>Connect with us :</p>
-            <div class="social-icons">
-              <a href="https://www.facebook.com/DigitalEdgeUAE911?mibextid=ZbWKwL">
-                <i class="fab fa-facebook-f icons"></i>
-              </a>
-              <a href="https://x.com/X_Faisal58?t=zqU6BeFBujDFdiAbvdD-8w&s=09">
-                <i class="fab fa-twitter icons"></i>
-              </a>
-              <a href="https://www.instagram.com/ig_mxf/">
-                <i class="fab fa-instagram icons"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/mohammed-faisal-169824280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
-                <i class="fab fa-linkedin-in icons"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-    
-        <div class="contact-form">
-          <span class="circle-one"></span>
-          <span class="circle-two"></span>
-    
-          <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
-            <input type="hidden" name="access_key" value="9db54cfd-e1fd-4194-8a05-e2c4d1cafd38">
-            <h3 class="title-4">Contact us</h3>
-            <div class="input-container">
-              <input type="text" name="name" class="input" />
-              <label for="">Username</label>
-              <span>Username</span>
-            </div>
-            <div class="input-container">
-              <input type="email" name="email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
-            </div>
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
-            </div>
-            <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
-            </div>
-            <input type="submit" value="Send" class="btn-19" />
-          </form>
-        </div>
-      </div>
-    </div>
-    </section>
+<!-- Packages Section -->
+<section id="Packages">
+    <!-- Main container for the package cards -->
+    <section class="main-flow">
+        <div class="main__cards cards">
+            <!-- Inner container for all cards -->
+            <div class="cards__inner">
+                <!-- Africa package card -->
+                <div class="cards__card card">
+                    <!-- Package title -->
+                    <h2 class="card__heading">Africa</h2>
+                    <!-- Package price -->
+                    <p class="card__price">$359.99</p>
+                    <!-- List of features included in the package -->
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to standard travel plans and itineraries</li>
+                        <li>Hotel bookings included (3-star accommodations)</li>
+                        <li>Email support</li>
+                        <li>Airport transfers</li>
+                    </ul>
+                    <!-- Call-to-action button for booking -->
+                    <a href="#Book Now" class="card__cta cta">Book Now</a>
+                </div>
 
-    <!-- FAQs section -->
+                <!-- Asia package card -->
+                <div class="cards__card card">
+                    <h2 class="card__heading">Asia</h2>
+                    <p class="card__price">$680.00</p>
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to advanced travel plans and itineraries</li>
+                        <li>Priority hotel bookings (4-star accommodations)</li>
+                        <li>Priority Email support</li>
+                        <li>Exclusive access to live Q&A sessions</li>
+                        <li>Popular attractions and adventure activities included</li>
+                        <li>Airport transfers</li>
+                    </ul>
+                    <a href="#Book Premium" class="card__cta cta">Book Premium</a>
+                </div>
+
+                <!-- Europe package card -->
+                <div class="cards__card card">
+                    <h2 class="card__heading">Europe</h2>
+                    <p class="card__price">$999.99</p>
+                    <ul role="list" class="card__bullets flow">
+                        <li>Access to premium travel plans and itineraries</li>
+                        <li>5-star hotel bookings included</li>
+                        <li>24/7 Priority support</li>
+                        <li>1-on-1 virtual travel assistance</li>
+                        <li>Exclusive content and early access to new destinations</li>
+                        <li>Guided tours to historical landmarks and cultural festivals</li>
+                        <li>Airport transfers and transportation within destinations</li>
+                    </ul>
+                    <a href="#Go Ultimate" class="card__cta cta">Go Ultimate</a>
+                </div>
+            </div>
+
+            <!-- Overlay for the cards (if any visual effect is needed) -->
+            <div class="overlay cards__inner"></div>
+        </div>
+    </section>
+</section>
+
+
+<!-- Contact Us Section -->
+<section id="contact-us">
+    <!-- Main container for the Contact Us section -->
+    <div class="container-1">
+        <div class="form">
+            <!-- Contact information section -->
+            <div class="contact-info">
+                <!-- Section title -->
+                <h3 class="title-4">Let's get in touch</h3>
+                <!-- Brief description or invitation to contact -->
+                <p class="text">
+                    We'd love to hear from you! Whether you have questions about our packages,
+                    need help planning your dream vacation, or want to know more about Sofo, feel free to reach out.
+                </p>
+
+                <!-- Contact details -->
+                <div class="info">
+                    <!-- Location information -->
+                    <div class="information">
+                        <img src="images/location.png" class="icon" alt="">
+                        <p>54 Al Enjaaz St Ajman Nuimiya-2</p>
+                    </div>
+                    <!-- Email address -->
+                    <div class="information">
+                        <img src="images/email.png" class="icon" alt="">
+                        <p>support@sofo.com</p>
+                    </div>
+                    <!-- Phone number -->
+                    <div class="information">
+                        <img src="images/phone.png" class="icon" alt="">
+                        <p>+971 56 8387374</p>
+                    </div>
+                </div>
+
+                <!-- Social media links -->
+                <div class="social-media">
+                    <p>Connect with us :</p>
+                    <div class="social-icons">
+                        <!-- Facebook link -->
+                        <a href="https://www.facebook.com/DigitalEdgeUAE911?mibextid=ZbWKwL">
+                            <i class="fab fa-facebook-f icons"></i>
+                        </a>
+                        <!-- Twitter link -->
+                        <a href="https://x.com/X_Faisal58?t=zqU6BeFBujDFdiAbvdD-8w&s=09">
+                            <i class="fab fa-twitter icons"></i>
+                        </a>
+                        <!-- Instagram link -->
+                        <a href="https://www.instagram.com/ig_mxf/">
+                            <i class="fab fa-instagram icons"></i>
+                        </a>
+                        <!-- LinkedIn link -->
+                        <a href="https://www.linkedin.com/in/mohammed-faisal-169824280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <i class="fab fa-linkedin-in icons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact form section -->
+            <div class="contact-form">
+                <!-- Decorative circles for the form design -->
+                <span class="circle-one"></span>
+                <span class="circle-two"></span>
+
+                <!-- Form to submit user details -->
+                <form action="https://api.web3forms.com/submit" method="POST" autocomplete="off">
+                    <!-- Hidden key to authenticate form submissions -->
+                    <input type="hidden" name="access_key" value="9db54cfd-e1fd-4194-8a05-e2c4d1cafd38">
+                    <!-- Form title -->
+                    <h3 class="title-4">Contact us</h3>
+                    <!-- Input field for username -->
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Username</label>
+                        <span>Username</span>
+                    </div>
+                    <!-- Input field for email -->
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+                    <!-- Input field for phone number -->
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">Phone</label>
+                        <span>Phone</span>
+                    </div>
+                    <!-- Textarea for user's message -->
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Message</label>
+                        <span>Message</span>
+                    </div>
+                    <!-- Submit button -->
+                    <input type="submit" value="Send" class="btn-19" />
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQs Section -->
 <section id="FAQ">
+    <!-- Main container for the FAQ section -->
     <div class="container-8">
+        <!-- Headline for the FAQ section with an icon -->
         <div class="faq-headline">
             <img src="images/icon-tourist.png" alt="" width="80" height="80">
             <h1>Frequently Asked Questions</h1>
         </div>
 
+        <!-- Accordion container for questions and answers -->
         <div class="accordion-container">
+            <!-- FAQ Item 1 -->
             <div class="accordion-item">
+                <!-- Accordion button to show/hide content -->
                 <button id="accordion-btn" class="accordion-btn">
                     What is included in the travel packages?
-
                     <div class="icon-tourist">
+                        <!-- Icon for expand (plus) -->
                         <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
+                        <!-- Icon for collapse (minus) -->
                         <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
                     </div>
                 </button>
-
+                <!-- Description for the first FAQ -->
                 <div class="accordion-description">
                     <p>Our travel packages include accommodation, guided tours, transportation, and access to top attractions. 
                         Premium plans offer luxury stays and exclusive experiences.</p>
                 </div>
             </div>
 
+            <!-- FAQ Item 2 -->
             <div class="accordion-item">
                 <button id="accordion-btn" class="accordion-btn">
                     Can I customize my travel itinerary?
-
                     <div class="icon-tourist">
                         <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
                         <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
                     </div>
                 </button>
-
                 <div class="accordion-description">
                     <p>Yes! We provide personalized itineraries based on your preferences and interests. 
                         Contact us for customization options.</p>
                 </div>
             </div>
 
+            <!-- FAQ Item 3 -->
             <div class="accordion-item">
                 <button id="accordion-btn" class="accordion-btn">
                     Do you offer group discounts?
-
                     <div class="icon-tourist">
                         <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
                         <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
                     </div>
                 </button>
-
                 <div class="accordion-description">
                     <p>Absolutely! We provide special rates for group bookings. 
                         Reach out to learn more about our group packages.</p>
                 </div>
             </div>
 
+            <!-- FAQ Item 4 -->
             <div class="accordion-item">
                 <button id="accordion-btn" class="accordion-btn">
                     Are flights included in the packages?
-
                     <div class="icon-tourist">
                         <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
                         <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
                     </div>
                 </button>
-
                 <div class="accordion-description">
                     <p>Flights are not included by default but can be added upon request. 
                         Contact our support team for flight arrangements.</p>
                 </div>
             </div>
 
+            <!-- FAQ Item 5 -->
             <div class="accordion-item">
                 <button id="accordion-btn" class="accordion-btn">
                     How do I make a booking?
-
                     <div class="icon-tourist">
                         <img class="plus-icon btn-icon" src="images/plane-take-off-plus.png" alt="" width="25" height="30">
                         <img class="minus-icon btn-icon" src="images/plane-landing-minus-black.png" alt="" width="25" height="30">
                     </div>
                 </button>
-
                 <div class="accordion-description">
                     <p>You can book directly through our website or contact us via email or phone. 
                         Our team is here to assist you every step of the way.</p>
@@ -604,38 +585,79 @@
     </div>
 </section>
 
+<!-- Button to scroll back to the top of the page -->
 <button onclick="ScrollToTop()" id="ScrollToTopBtn">&uarr;</button>
 
+
 <footer>
-    <div class="background">
-      <svg class="footer-animations" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900">
-        <defs>
-          <path id="wave" fill="rgba(128, 0, 128, 1)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0 s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"/>
-        </defs>
-          <use xlink:href="#wave" opacity=".4"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="8s" calcMode="spline" values="270 230; -334 180; 270 230" keyTimes="0; .5; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
-          <use xlink:href="#wave" opacity=".6"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="6s" calcMode="spline" values="-270 230;243 220;-270 230" keyTimes="0; .6; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
-          <use xlink:href="#wave" opacty=".9"><animateTransform attributeName="transform" attributeType="XML" type="translate" dur="4s" calcMode="spline" values="0 230;-140 200;0 230" keyTimes="0; .4; 1" keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0" repeatCount="indefinite"/></use>
-      </svg>
+    <!-- Main container for footer content -->
+    <div class="row">
+        <!-- First column: About SOFO -->
+        <div class="col">
+            <img src="images/logo sofo.png" class="logo-2" alt="SOFO Logo">
+            <p>Adventure awaits with SOFO Trekkers! Explore breathtaking destinations, 
+                create unforgettable memories, and let us guide you to your dream journey. 
+                Start your adventure today!</p>
+        </div>
+
+        <!-- Second column: Office details -->
+        <div class="col">
+            <h3>Office 
+                <div class="underline"><span></span></div>
+            </h3>
+            <p>United Arab Emirates</p>
+            <p>Dubai, Business Bay</p>
+            <p>Burj Khalifa Building</p>
+            <p class="support">Email: support@sofo.com</p>
+            <h4>Phone: +971 56 8387374</h4>
+        </div>
+
+        <!-- Third column: Navigation links -->
+        <div class="col">
+            <h3>Links 
+                <div class="underline"><span></span></div>
+            </h3>
+            <ul class="king">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+
+        <!-- Fourth column: Newsletter subscription -->
+        <div class="col">
+            <h3>Newsletter 
+                <div class="underline"><span></span></div>
+            </h3>
+            <!-- Newsletter subscription form -->
+            <form class="news">
+                <i class="fa-regular fa-envelope"></i>
+                <input class="Newsletter" type="email" placeholder="Enter your email id" required>
+                <button class="Subscribe" type="submit">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </form>
+
+            <!-- Social media icons -->
+            <div class="apps">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
     </div>
-    <section class="footer">
-      <ul class="socials-5">
-        <li><a href="https://x.com/X_Faisal58?t=zqU6BeFBujDFdiAbvdD-8w&s=09" class="fa-brands fa-x-twitter"></a></li>
-        <li><a href="https://www.facebook.com/DigitalEdgeUAE911?mibextid=ZbWKwL" class="fa-brands fa-facebook"></a></li>
-        <li><a href="https://www.linkedin.com/in/mohammed-faisal-169824280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa-brands fa-linkedin"></a></li>
-        <li><a href="https://www.instagram.com/ig_mxf/" class="fa-brands fa-instagram"></a></li>
-      </ul>
-      <ul class="links-2" style="cursor: pointer;">
-        <li><a>Home</a></li>
-        <li><a>Destinations</a></li>
-        <li><a>Gallery</a></li>
-        <li><a>Testinomials</a></li>
-        <li><a>Packages/Offers</a></li>
-        <li><a>Contact</a></li>
-        <li><a>FAQ</a></li>
-      </ul>
-      <p class="legal">© 2025 SOFO. All rights reserved by <strong>Faisal</strong>.</p>
-    </section>
-  </footer>
+
+    <!-- Horizontal line to separate footer content from copyright -->
+    <hr>
+
+    <!-- Copyright notice -->
+    <p class="copyright">© 2025 SOFO. All rights reserved by Faisal.</p>
+</footer>
+
 
     <script>
 
