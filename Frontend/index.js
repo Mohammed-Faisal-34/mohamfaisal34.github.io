@@ -1,58 +1,94 @@
-// Home section
-document.addEventListener("DOMContentLoaded", function () { 
-    const slideRef = document.getElementById("slide"); 
-    const handleClickNext = () => {
-        let items = slideRef.querySelectorAll(".item");
-        slideRef.appendChild(items[0]);
-    };
-    const handleClickPrev = () => {
-        let items = slideRef.querySelectorAll(".item");
-        slideRef.prepend(items[items.length-1]);
-    };
+// Home page
+var nextBtn = document.querySelector('.next'),
+    prevBtn = document.querySelector('.prev'),
+    carousel = document.querySelector('.carousel'),
+    list = document.querySelector('.list-1'), 
+    item = document.querySelectorAll('.item'),
+    runningTime = document.querySelector('.carousel .timeRunning') 
 
-    const prevBtn = document.getElementById("prev"); 
-    const nextBtn = document.getElementById("next");
+let timeRunning = 3000 
+let timeAutoNext = 7000
 
-    prevBtn.addEventListener("click", handleClickPrev); 
-    nextBtn.addEventListener("click", handleClickNext);
+nextBtn.onclick = function(){
+    showSlider('next')
+}
 
-})
+prevBtn.onclick = function(){
+    showSlider('prev')
+}
+
+let runTimeOut 
+
+let runNextAuto = setTimeout(() => {
+    nextBtn.click()
+}, timeAutoNext)
 
 
-//Popular Destination section
+function resetTimeAnimation() {
+    runningTime.style.animation = 'none'
+    runningTime.offsetHeight /* trigger reflow */
+    runningTime.style.animation = null 
+    runningTime.style.animation = 'runningTime 7s linear 1 forwards'
+}
 
-var swiper = new Swiper(".swiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    coverflowEffect: {
-      rotate: 0,
-      stretch: 0,
-      depth: 100,
-      modifier: 2.5,
-    },
-    keyboard: {
-      enabled: true,
-    },
+
+function showSlider(type) {
+    let sliderItemsDom = list.querySelectorAll('.carousel .list-1 .item')
+    if(type === 'next'){
+        list.appendChild(sliderItemsDom[0])
+        carousel.classList.add('next')
+    } else{
+        list.prepend(sliderItemsDom[sliderItemsDom.length - 1])
+        carousel.classList.add('prev')
+    }
+
+    clearTimeout(runTimeOut)
+
+    runTimeOut = setTimeout( () => {
+        carousel.classList.remove('next')
+        carousel.classList.remove('prev')
+    }, timeRunning)
+
+
+    clearTimeout(runNextAuto)
+    runNextAuto = setTimeout(() => {
+        nextBtn.click()
+    }, timeAutoNext)
+
+    resetTimeAnimation() // Reset the running time animation
+}
+
+// Start the initial animation 
+resetTimeAnimation()
+
+
+
+// swipper for destinations section
+
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    effect: 'fade',
+    loop: true,
+    speed: 300,
     mousewheel: {
-      thresholdDelta: 70,
+      invert: false,
     },
-    spaceBetween: 30,
-    loop: false,
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-      },
-      1024: {
-        slidesPerView: 3,
-      },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true
     },
-});
-  
-swiper.slideTo(1, false, false);
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
+  });
 
+  // packages 
 
-// package & offer section
+  // package & offer section
 
 console.clear();
 
@@ -144,3 +180,22 @@ accordionBtns.forEach(btn => {
 
     })
 })
+
+//scroll to top of accordion
+
+let MyButton = document.getElementById("ScrollToTopBtn");
+
+window.onscroll = function() {ScrollFunction()};
+
+function ScrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        MyButton.style.display = "block";
+    } else {
+        MyButton.style.display = "none";
+    }
+}
+
+function ScrollToTop(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
