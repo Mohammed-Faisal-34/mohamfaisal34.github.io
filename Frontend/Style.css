@@ -2096,7 +2096,7 @@ textarea.input {
 footer {
     width: 100%;
     position: absolute;
-    background: linear-gradient(to right, #1e1e1e, #2b132b, #800080);
+    background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
     color: white;
     padding: 100px 0 30px;
     font-size: 13px;
