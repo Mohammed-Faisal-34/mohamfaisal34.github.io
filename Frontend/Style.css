@@ -29,7 +29,7 @@
 
 /* Body styles */
 body {
-    background-color: #1e1e1e;
+  background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
     overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
@@ -679,7 +679,7 @@ body {
   padding: 0 40px;
   width: 100vw;
   min-height: 60vh;
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
   font: normal normal 400 12pt / 2cap "Golos Text", sans-serif;
   color: white;
   overflow-x: hidden;
@@ -1091,7 +1091,7 @@ figure:has(.btn-50 input:checked) ~ .photos .pic {
   font-family: "Poppins", serif;
   text-align: center;
   color: #ffffff;
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
   display: flex;
   flex-direction: column;
 }
@@ -1290,7 +1290,7 @@ figure:has(.btn-50 input:checked) ~ .photos .pic {
     min-height: 50vh;
     display: grid;
     place-items: center;
-    background-color: #1e1e1e;
+    background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
     color: #fff;
     font-family: "Inter", "DM Sans", Arial, sans-serif;
     overflow: hidden;
@@ -1307,7 +1307,7 @@ figure:has(.btn-50 input:checked) ~ .photos .pic {
     position: relative;
     overflow: hidden;
  /* background: var(--bg); */
-    background-color: #1e1e1e;
+    background-color: transparent;
     margin: 0;
 }
 
@@ -1476,7 +1476,7 @@ figure:has(.btn-50 input:checked) ~ .photos .pic {
 /* Main section for packages */
 #Packages {
   height: 100%;
-  background-color: #1e1e1e;
+  background-color: transparent;
   margin-top: -40px;
 }
 
@@ -1665,7 +1665,7 @@ input, textarea {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: #1e1e1e;
+  background: linear-gradient(to right, #1e1e1e, #2b132b, #550255);
   overflow: hidden;
   display: flex;
   align-items: center;
